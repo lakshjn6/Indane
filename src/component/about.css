@@ -1,0 +1,144 @@
+.aboutsection{
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    
+   
+}
+#heading{
+    font-size: 35px;
+    color: #1a295c;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Montserrat;
+}
+#aboutstatement{
+ 
+    padding-top: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+#facilate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  
+}
+#service{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#servicediv{
+   margin-left: 50px;
+   text-align: center;
+    width: 250px;
+    height: 200px;
+    background-color: #f5f5f5;
+    box-shadow: 10px 10px 10px #ff713d5b;
+    /* border: 3px solid rgba(214, 212, 212, 0.553); */
+    border-radius: 7px;
+
+}
+.servicename{
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+#achivements{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+
+}
+#achivementdiv{
+    
+    height: 50px;
+    border-radius: 15px;
+   box-shadow: -10px 10px 10px #ff713d70;
+    display: flex;
+   
+    align-items: center;
+   flex-wrap: wrap;
+}
+.tickstatements{
+    font-weight: bolder;
+    color:#130665 ;
+    font-family:  Montserrat;
+    font-size: 25px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    #heading{
+        font-size: 15px;
+        color: #1a295c;
+        font-weight: bolder;
+        text-align: center;
+        font-family: Montserrat;
+    }
+    #facilate{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+      
+    }
+    #achivements{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 50px;
+        padding-top: 40px;
+    
+    }
+    #achivementdiv{
+       
+      
+        box-shadow: -10px 10px 10px #ff713d70;
+        display: flex;
+       width: 100%;
+        align-items: center;
+       flex-wrap: wrap;
+       justify-items: baseline;
+       border-radius: 15px;
+    }
+    .tickstatements{
+        font-weight: bolder;
+        color:#130665 ;
+        font-family:  Montserrat;
+        font-size: 15px;
+      
+    }
+    #service{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #servicediv{
+        margin: 0;
+       
+        align-items: center;
+         text-align: center;
+         width: 60%;
+         height: 200px;
+         box-shadow: 5px 5px 5px #ff713d5b;
+         border-radius: 7px;
+     
+     }
+}

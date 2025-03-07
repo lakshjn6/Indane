@@ -1,0 +1,86 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px rgb(100, 93, 93);
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  width: 400px;
+  height: 70px;
+}
+
+.menu {
+  list-style: none;
+  font-weight: bolder;
+  font-family: Montserrat;
+  display: flex;
+  gap: 80px;
+  padding-right: 40px;
+}
+
+.menu li {
+  cursor: pointer;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger Menu (Hidden by Default) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  color: black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    height: 70px;
+  }
+  .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #ff723d;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000;
+      color: black;
+  }
+ 
+  .menu.show {
+      display: flex;
+  }
+
+  .menu li {
+      padding: 10px;
+  }
+
+  .hamburger {
+      font-size: 50px;
+      display: flex;
+  }
+}

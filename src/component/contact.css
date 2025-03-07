@@ -1,0 +1,110 @@
+#outerdiv1{
+    display: flex;
+    width: 100%;
+}
+.innerdiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: orangered;
+}
+
+.innerdiv2{
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+#name1{
+    width: 100%;
+   text-align: center;
+    /* font-family: Montserrat;
+    font-size:3rem;
+    color:  #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: 60px; */
+    
+        font-size: 40px; 
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #001F54; 
+        text-shadow: 2px 2px 0px #ffffff, 
+                     4px 4px 0px #0a0213; 
+        font-family: Montserrat; 
+        
+    
+        position: relative;
+        top: 60px;
+}
+#whatsapp_contact{
+    font-size: 2.4rem;
+    color: #001F54;
+    
+   
+}
+#whatsapp{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+#innerdiv11{
+    height: 80%;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(204, 102, 79, 0.452), rgba(33, 14, 39, 0.619));
+    border: 2px solid rgb(255, 255, 255);
+}
+.contactinfo{
+    color: #ffffff;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+   text-align: center;
+   
+}
+.contactinfo svg {
+    margin-right: 2rem; /* Adds space between the icon and text */
+  }
+#iconimage{
+    font-size: larger;
+}
+
+  
+@media screen and (max-width: 768px){
+    #outerdiv1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactinfo svg {
+        margin-right: 0rem; /* Adds space between the icon and text */
+      }
+    .innerdiv1{
+        width: 100%;
+        height: 100vh;
+        background-color: orangered;
+    }
+    .innerdiv2{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #cartoon{
+        width: 100%;
+    }
+    
+    
+}
+
