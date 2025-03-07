@@ -22,8 +22,8 @@ const Homepage = () => {
         <div id="namediv">
           <h1 id="name">
             झिलाई इंडेन ग्रामीण <br></br> वितरक<br></br>
-            <button>click</button>
-            <button>xlixk</button>
+            <button>Conatct-Us</button>
+            <button>Know More</button>
           </h1>
           <img src="images (1) (1).png" alt="logo" id="indaneimage"></img>
         </div>

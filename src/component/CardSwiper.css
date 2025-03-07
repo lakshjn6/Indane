@@ -20,6 +20,7 @@
 
 #homepage {
   display: flex;
+  
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -35,7 +36,8 @@
 }
 
 button {
-  font-size: 30px;
+  font-size: 15px;
+  font-weight: bold;
   font-family: Montserrat;
   align-items: center;
   align-content: center;
@@ -75,7 +77,7 @@ button {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   #namediv {
     padding: 0;
@@ -97,6 +99,6 @@ button {
     width: 80px;
     height: 30px;
     margin: 10px;
-    font-size: 20px;
+    font-size: 10px;
   }
 }

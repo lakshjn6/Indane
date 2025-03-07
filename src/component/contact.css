@@ -10,6 +10,7 @@
     width: 50%;
     height: 100vh;
     background-color: orangered;
+    padding-top: 40px;
 }
 
 .innerdiv2{
@@ -18,6 +19,7 @@
     width: 50%;
     height: 100vh;
     background-color: rgb(255, 255, 255);
+    padding-top: 30px;
 }
 #name1{
     width: 100%;
@@ -52,9 +54,12 @@
     display: flex;
     align-items: center;
     gap: 10%;
+   
+    
 }
+
 #innerdiv11{
-    height: 80%;
+    height: 50%;
     width: 90%;
     border-radius: 5px;
     display: flex;
@@ -67,7 +72,7 @@
 }
 .contactinfo{
     color: #ffffff;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: center;
    text-align: center;
@@ -79,8 +84,63 @@
 #iconimage{
     font-size: larger;
 }
-
+#cartoon{
+    width: 50%;
+    animation: scroll 5s linear infinite;
+}
+@keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+.querybox-container {
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
   
+  .querybox-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .querybox-form input,
+  .querybox-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .querybox-form textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .querybox-form button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .querybox-form button:hover {
+    background: #e74c3c;
+  }
+    
 @media screen and (max-width: 768px){
     #outerdiv1{
         display: flex;
@@ -105,6 +165,13 @@
         width: 100%;
     }
     
-    
+    .innerdiv2{
+        padding: 1.5rem;
+       display: flex;
+       flex-direction: column;
+        align-items: center;
+       
+
+    }
 }
 
