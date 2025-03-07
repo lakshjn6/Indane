@@ -1,0 +1,30 @@
+#footerdiv{
+    width: 100%;
+    background-color: #011242;
+    display: flex;
+    flex-direction: column;
+}
+.footerdiv1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#lastline{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+#footer-contact{
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .footerdiv1{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        flex-direction: column;
+        text-align: center;
+    }
+}
