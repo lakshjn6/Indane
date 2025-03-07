@@ -124,7 +124,7 @@
   }
   
   .querybox-form textarea {
-    height: 150px;
+    height: 20vh;
     resize: none;
   }
   
@@ -170,6 +170,10 @@
     #cartoon{
         width: 100%;
     }
+    .querybox-form textarea {
+        height: 27vh;
+        resize: none;
+      }
     
     .innerdiv2{
         padding: 1.5rem;

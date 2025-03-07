@@ -27,4 +27,12 @@
         flex-direction: column;
         text-align: center;
     }
+    .footerdiv1{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        color: white;
+        flex-direction: column;
+
+    }
 }

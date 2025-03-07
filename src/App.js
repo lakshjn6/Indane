@@ -7,15 +7,23 @@ import Footer from "./component/footer";
 function App() {
   return (
     <div className="App">
+      <section id="home">
       <Navbar/>
       <Homepage/>
+      </section>
       <br></br>
+      <section id="about">
       <About/>
+      </section>
       <br></br>
       <br></br>
+      <section id="booking">
       <Booking/>
+      </section>
       <br></br>
+      <section id="contact">
       <Contact/>
+      </section>
       <Footer/>
    
     </div>

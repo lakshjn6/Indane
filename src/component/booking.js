@@ -25,7 +25,7 @@ export default function Booking(){
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/missed-call.png" alt="missed-call"/>
             <div>
 <h1>Missed Call</h1>
-<p id="bookingstate">Book your cylinder instantly via SMS! 🚀 Tap here to order now!</p>
+<p id="bookingstate">Book your cylinder instantly via Missed Call! 🚀 Tap here to order now!</p>
 </div>
             </div>
             <div className="innerelement">
@@ -33,7 +33,7 @@ export default function Booking(){
 
             <div>
 <h1>Portal</h1>
-<p id="bookingstate">Book your cylinder instantly via SMS! 🚀 Tap here to order now!</p>
+<p id="bookingstate">Book your cylinder instantly via Portal! 🚀 Tap here to order now!</p>
 </div>
             </div>
 
