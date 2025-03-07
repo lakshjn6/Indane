@@ -10,7 +10,7 @@
     width: 50%;
     height: 100vh;
     background-color: orangered;
-    padding-top: 40px;
+    padding-top: 44px;
 }
 
 .innerdiv2{
@@ -44,7 +44,7 @@
         top: 60px;
 }
 #whatsapp_contact{
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: #001F54;
     
    
@@ -93,7 +93,7 @@
       transform: translateX(100%);
     }
     to {
-      transform: translateX(-100%);
+      transform: translateX(0%);
     }
   }
 .querybox-container {
@@ -150,6 +150,11 @@
     .contactinfo svg {
         margin-right: 0rem; /* Adds space between the icon and text */
       }
+      #cartoon{
+        width: 50%;
+        animation: ease-in 5s;
+    }
+    
     .innerdiv1{
         width: 100%;
         height: 100vh;
