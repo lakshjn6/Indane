@@ -14,7 +14,9 @@
     font-family: Montserrat;
 }
 #aboutstatement{
- 
+    font-size: 1.2rem; /* Default size */
+    line-height: 1.6;
+    text-align: justify;
     padding-top: 10px;
     padding-left: 52px;
     padding-right: 52px;
@@ -78,7 +80,7 @@
 
 @media screen and (max-width: 768px){
     #heading{
-        font-size: 15px;
+        font-size: 25px;
         color: #1a295c;
         font-weight: bolder;
         text-align: center;
@@ -141,4 +143,29 @@
          border-radius: 7px;
      
      }
+}
+
+
+@media (max-width: 1200px) {
+    #about {
+        font-size: 1.1rem; 
+    }
+}
+
+@media (max-width: 992px) {
+    #about {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        font-size: 0.95rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    #about {
+        font-size: 0.9rem; 
+    }
 }
