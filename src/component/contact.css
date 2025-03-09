@@ -9,7 +9,7 @@
     align-items: center;
     width: 50%;
     height: 100vh;
-    background-color: orangered;
+    background-color: #ff723d;
     padding-top: 44px;
 }
 
@@ -162,7 +162,8 @@
     .innerdiv1{
         width: 100%;
         height: 100vh;
-        background-color: orangered;
+    background-color: #ff723d;
+ 
     }
     .innerdiv2{
         width: 100%;

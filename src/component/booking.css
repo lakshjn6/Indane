@@ -28,6 +28,12 @@
 #bookingstate{
    text-align: center;
 }
+#bookinglogo{
+    background-color: rgb(255, 255, 255);
+    width: 9vh;
+
+    border-radius: 50%;
+}
 @media screen and (max-width: 768px){
     .outerdiv{
         display: flex;
