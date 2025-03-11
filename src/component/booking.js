@@ -16,7 +16,7 @@ export default function Booking(){
     </div>
     <div>
         <h1>WhatsApp</h1>
-        <p id="bookingstate">Book your cylinder instantly via WhatsApp! 🚀 Tap here to order now!</p>
+        <p id="bookingstate">Book your cylinder instantly via WhatsApp!<br></br> <b>🚀 Tap here to order now!</b></p>
     </div>
 </div>
 
@@ -29,7 +29,7 @@ export default function Booking(){
     </div>
     <div>
         <h1>S.M.S</h1>
-        <p id="bookingstate">Book your cylinder instantly via SMS! 🚀 Tap here to order now!</p>
+        <p id="bookingstate">Book your cylinder instantly via SMS!<br></br> <b>🚀 Tap here to order now!</b></p>
     </div>
 </div>
 
@@ -39,7 +39,7 @@ export default function Booking(){
     </div>
     <div>
         <h1>Missed Call</h1>
-        <p id="bookingstate">Book your cylinder instantly via Missed Call! 🚀 Tap here to order now!</p>
+        <p id="bookingstate">Book your cylinder instantly via Missed Call!<br></br> <b>🚀 Tap here to order now!</b></p>
     </div>
 </div>
 
@@ -49,7 +49,7 @@ export default function Booking(){
              </div>
             <div>
 <h1>Portal</h1>
-<p id="bookingstate">Book your cylinder instantly via Portal! 🚀 Tap here to order now!</p>
+<p id="bookingstate">Book your cylinder instantly via Portal! <br></br> <b>🚀 Tap here to order now!</b></p>
 </div>
             </div>
 

@@ -27,8 +27,10 @@ export default function Contact(){
       setFormData({ customerNumber: "", phoneNumber: "", place: "", query: "" });
     };
     return(
+        <div>
+          <div id="name1">Contact</div>
         <div id="contact_div">
-        <div id="name1">Contact</div>
+        
         <div id="outerdiv1">
            
             <div className="innerdiv1">
@@ -63,7 +65,7 @@ export default function Contact(){
             
           
             <div className="querybox-container">
-      <h2>Raise Your Query</h2>
+      <h2 style={{color:"white"}}>Raise Your Query</h2>
       <form className="querybox-form" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -121,6 +123,7 @@ export default function Contact(){
 
             
             </div>
+        </div>
         </div>
         </div>
     )
