@@ -4,6 +4,8 @@ import About from "./component/about1";
 import Booking from "./component/booking";
 import Contact from "./component/contact";
 import Footer from "./component/footer";
+import Feedback from "./component/feedback.js";
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,8 @@ function App() {
       <section id="contact">
       <Contact/>
       </section>
+      <Feedback/>
+      <br></br>
       <Footer/>
    
     </div>
